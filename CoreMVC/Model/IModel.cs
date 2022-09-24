@@ -8,5 +8,6 @@ namespace CoreMVC.Model
 {
 	public interface IModel
 	{
+
 	}
 }

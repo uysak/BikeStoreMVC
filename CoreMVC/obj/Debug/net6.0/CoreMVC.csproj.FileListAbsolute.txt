@@ -10,3 +10,15 @@ C:\Users\Neo\source\repos\RunGroopWebApp\CoreMVC\obj\Debug\net6.0\CoreMVC.dll
 C:\Users\Neo\source\repos\RunGroopWebApp\CoreMVC\obj\Debug\net6.0\refint\CoreMVC.dll
 C:\Users\Neo\source\repos\RunGroopWebApp\CoreMVC\obj\Debug\net6.0\CoreMVC.pdb
 C:\Users\Neo\source\repos\RunGroopWebApp\CoreMVC\obj\Debug\net6.0\ref\CoreMVC.dll
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\bin\Debug\net6.0\CoreMVC.deps.json
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\bin\Debug\net6.0\CoreMVC.dll
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\bin\Debug\net6.0\CoreMVC.pdb
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\CoreMVC.csproj.AssemblyReference.cache
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\CoreMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\CoreMVC.AssemblyInfoInputs.cache
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\CoreMVC.AssemblyInfo.cs
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\CoreMVC.csproj.CoreCompileInputs.cache
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\CoreMVC.dll
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\refint\CoreMVC.dll
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\CoreMVC.pdb
+C:\Users\Neo\source\repos\BikeStore\CoreMVC\obj\Debug\net6.0\ref\CoreMVC.dll

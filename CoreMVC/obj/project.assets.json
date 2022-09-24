@@ -684,11 +684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Neo\\source\\repos\\RunGroopWebApp\\CoreMVC\\CoreMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Neo\\source\\repos\\BikeStore\\CoreMVC\\CoreMVC.csproj",
       "projectName": "CoreMVC",
-      "projectPath": "C:\\Users\\Neo\\source\\repos\\RunGroopWebApp\\CoreMVC\\CoreMVC.csproj",
+      "projectPath": "C:\\Users\\Neo\\source\\repos\\BikeStore\\CoreMVC\\CoreMVC.csproj",
       "packagesPath": "C:\\Users\\Neo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Neo\\source\\repos\\RunGroopWebApp\\CoreMVC\\obj\\",
+      "outputPath": "C:\\Users\\Neo\\source\\repos\\BikeStore\\CoreMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\VisualStudioShared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+SgzJXIVWl+wWb8dtfd60IYHJe9hjgaEQ8jGBHHGbCvvIDyfPg4SHV0pGvGCIBuV0AFsPOkjCpLA8vZ49fgL4w==",
+  "dgSpecHash": "iOFdcCRujOQpW0Vxu52S8MMEXawqT4k1MAnA2W/AEdtTDto+j181xtlJiP1BMjrccH7WF/HlA19zRM1SRSckZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Neo\\source\\repos\\RunGroopWebApp\\CoreMVC\\CoreMVC.csproj",
+  "projectFilePath": "C:\\Users\\Neo\\source\\repos\\BikeStore\\CoreMVC\\CoreMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Neo\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\Neo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
