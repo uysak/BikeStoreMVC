@@ -23,6 +23,7 @@ namespace BikeStore.Data
         public DbSet<Staff> Staffs { get; set; }
         public DbSet<Stock> Stocks { get; set; }
         public DbSet<Store> Stores { get; set; }
+        public DbSet<Image> Images { get; set; }
 
     }
 

@@ -16,7 +16,7 @@ namespace BikeStore.Controllers
 
         public IActionResult Index()
         {
-            var categories = _categoryRepository.GetAll();
+            var categories = _categoryRepository.GetCategories();
             return View(categories);
         }
 

@@ -13,14 +13,16 @@ namespace BikeStore.DependencyResolver.Autofac
         {
             builder.RegisterType<CategoryRepository>().As<ICategoryRepository>().SingleInstance();
 
-            builder.RegisterType<BrandRepository>().As<IBrandRepository>();
-            builder.RegisterType<OrderRepository>().As<IOrderRepository>();
-            builder.RegisterType<CustomerRepository>().As<ICustomerRepository>();
-            builder.RegisterType<OrderItemRepository>().As<IOrderItemRepository>();
-            builder.RegisterType<ProductRepository>().As<IProductRepository>();
-            builder.RegisterType<StaffRepository>().As<IStaffRepository>();
-            builder.RegisterType<StockRepository>().As<IStockRepository>();
-            builder.RegisterType<StoreRepository>().As<IStoreRepository>();
+            builder.RegisterType<BrandRepository>().As<IBrandRepository>().SingleInstance();
+            builder.RegisterType<OrderRepository>().As<IOrderRepository>().SingleInstance();
+            builder.RegisterType<CustomerRepository>().As<ICustomerRepository>().SingleInstance();
+            builder.RegisterType<OrderItemRepository>().As<IOrderItemRepository>().SingleInstance();
+            builder.RegisterType<ProductRepository>().As<IProductRepository>().SingleInstance();
+            builder.RegisterType<StaffRepository>().As<IStaffRepository>().SingleInstance();
+            builder.RegisterType<StockRepository>().As<IStockRepository>().SingleInstance();
+            builder.RegisterType<StoreRepository>().As<IStoreRepository>().SingleInstance();
+            builder.RegisterType<ImageRepository>().As<IImageRepository>().SingleInstance();
+
         }
     }
 }

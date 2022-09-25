@@ -1,0 +1,65 @@
+﻿@model List<BikeStore.Models.DTOs.ProductDetailDto>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!doctype html>
+<html lang="en">
+
+<body style="background-color: #66BFBF">
+
+  <main>
+
+
+  <div class="album py-5 bg-light" >	
+	  <div class="container" style="background-color: #66BFBF">
+
+		  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+			  @foreach (var product in Model)
+			  {
+
+				  <div class="col">
+					  <div class="card shadow-sm" style="border-block-color: black; border-width: 2px">
+						  <img class="img-fluid" src="@product.Images.Last().ImageURL" alt="" width="200" height="200" style="align-self: center">
+						  <div class="card-body" style="background-color: #EAF6F6">
+							  <p class="card-text">@product.BrandName</p>
+							  <p class="card-text">@product.ProductName</p>
+							  <p class="card-text">@product.ModelYear</p>
+							  <p class="card-text" style="color: green">@product.ListPrice</p>
+							  <div class="d-flex justify-content-between align-items-center">
+								  <div class="btn-group" style="align-self: center">
+									  <button type="button" class="btn btn-sm btn-outline-secondary" style="background-color: #FF0063; color: #eaf6f6">Detayları Gör</button>
+									  <div style="width: 5px"> </div>
+									  <button type="button" class="btn btn-sm btn-outline-secondary" style="background-color: #FF0063; color: #eaf6f6">Sepete Ekle</button>
+								  </div>
+								  <small class="text-muted">9 mins</small>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+			  }
+		  </div>
+	  </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.2/getting-started/introduction/">getting started guide</a>.</p>
+  </div>
+</footer>
+
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
