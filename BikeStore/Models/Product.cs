@@ -14,5 +14,6 @@ namespace BikeStore.Models
         public int CategoryId { get; set; }
         public short ModelYear { get; set; }
         public decimal ListPrice { get; set; }
+        public List<Image>? Images { get; set; }
     }
 }

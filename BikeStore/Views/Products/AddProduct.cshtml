@@ -1,0 +1,55 @@
+﻿@using BikeStore.Data.Enum
+@using Category = BikeStore.Data.Enum.Category
+@using Brand = BikeStore.Data.Enum.Brand
+@model Product
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form method="post" asp-action="AddProduct">
+	<div class="form-group" style="margin: 50">
+		<label asp-for="ProductName">Product Name</label>
+		<input asp-for="ProductName" class="form-control" placeholder="Product Name">
+		<span asp-validation-for="ProductName" class="text-danger"></span>
+	</div>
+	
+	<div class="form-group" style="margin: 50">
+		<div class="form-group">
+			<label asp-for="BrandId">Brand</label>
+			<select asp-for="BrandId" asp-items="@Html.GetEnumSelectList<Brand>()">
+				<option>--Select--</option>
+			</select>
+			<span asp-validation-for="BrandId" class="text-danger"></span>
+		</div>
+	</div>
+
+	<div class="form-group" style="margin: 50">
+		<div class="form-group">
+			<label asp-for="CategoryId">Category</label>
+			<select asp-for="CategoryId" asp-items="@Html.GetEnumSelectList<Category>()">
+				<option>--Select--</option>
+			</select>
+			<span asp-validation-for="CategoryId" class="text-danger"></span>
+		</div>
+	</div>
+	
+	<div class="form-group" style="margin: 50">
+		<label asp-for="ModelYear">Model Year</label>
+		<input asp-for="ModelYear" class="form-control" placeholder="Model Year">
+		<span asp-validation-for="ModelYear" class="text-danger"></span>
+	</div>
+	
+	<div class="form-group"style="margin: 50">
+		<label asp-for="ListPrice">List Price</label>
+		<input asp-for="ListPrice" class="form-control" placeholder="ListPrice">
+		<span asp-validation-for="ListPrice" class="text-danger"></span>
+	</div>
+
+
+	<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>

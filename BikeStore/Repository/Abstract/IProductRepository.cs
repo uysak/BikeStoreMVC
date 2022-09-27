@@ -7,5 +7,6 @@ namespace BikeStore.Repository.Abstract
     public interface IProductRepository : IEntityRepository<Product>
     {
         public List<ProductDetailDto> GetProducts(int categoryId);
+        public List<ProductDetailDto> GetProduct(int productId);
     }
 }

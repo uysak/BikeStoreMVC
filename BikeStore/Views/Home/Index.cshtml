@@ -120,27 +120,27 @@
 
   <div class="container marketing">
 	  <div class="row">
+		  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-		  @foreach(var category in @Model){
-
-
-			  <div class="col-lg-4">
-
-				  <img class="img-fluid" src="@category.Images.ImageURL" alt="" width="200" height="200">
-				  <h2 class="fw-normal">@category.CategoryName</h2>
-				  <p>@category.CategoryDetail</p>
-				  <div class="btn-group">
-					  <a asp-controller="Products" asp-action="GetProducts" asp-route-id="@category.CategoryId" type="button" class="btn btn-sm btn-outline-secondary">View</a>
-					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+			  @foreach (var category in @Model)
+			  {
+				  <div class="card" >
+					  <img src="@category.Images.ImageURL" class="card-img-top" alt="...">
+					  <div class="card-body">
+						  <h5 class="card-title">@category.CategoryName</h5>
+						  <p class="card-text">@category.CategoryDetail</p>
+						  <a asp-controller="Products" asp-action="GetProducts" asp-route-id="@category.CategoryId" type="button" class="align-self-center btn btn-sm btn-outline-secondary" style="align-self: center">View Products</a>
+					  </div>
 				  </div>
-			  </div><!-- /.col-lg-4 -->
-		  }
+				  
+			  }
 
 
-	  </div><!-- /.row -->
+		  </div><!-- /.row -->
+	  </div>
 
 
-    <!-- START THE FEATURETTES -->
+		  <!-- START THE FEATURETTES -->
     
     
     <!-- 

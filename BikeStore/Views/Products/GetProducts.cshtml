@@ -20,7 +20,6 @@
 
 			  @foreach (var product in Model)
 			  {
-
 				  <div class="col">
 					  <div class="card shadow-sm" style="border-block-color: black; border-width: 2px">
 						  <img class="img-fluid" src="@product.Images.Last().ImageURL" alt="" width="200" height="200" style="align-self: center">
@@ -31,7 +30,7 @@
 							  <p class="card-text" style="color: green">@product.ListPrice</p>
 							  <div class="d-flex justify-content-between align-items-center">
 								  <div class="btn-group" style="align-self: center">
-									  <button type="button" class="btn btn-sm btn-outline-secondary" style="background-color: #FF0063; color: #eaf6f6">Detayları Gör</button>
+									  <a asp-controller="Products" asp-action="ProductDetail" asp-route-id="@product.ProductId" type="button" class="align-self-center btn btn-sm btn-outline-secondary" style="align-self: center">View Detail</a>
 									  <div style="width: 5px"> </div>
 									  <button type="button" class="btn btn-sm btn-outline-secondary" style="background-color: #FF0063; color: #eaf6f6">Sepete Ekle</button>
 								  </div>
